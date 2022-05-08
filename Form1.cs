@@ -50,6 +50,10 @@ namespace ConvCEMRims
                 {
                     listBox1.Items.Add(Path.GetFileNameWithoutExtension(file));
                 }
+                if (listBox1.Items.Count !=0)
+                {
+                    listBox1.SelectedIndex = 0;
+                }
                 indx_start = 2;
 
             }
